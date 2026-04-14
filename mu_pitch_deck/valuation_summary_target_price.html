@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #F4F5F7;
+            font-family: 'Inter', sans-serif;
+            color: #5E6C84;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            color: #091E42;
+            margin: 0;
+        }
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 30px;
+        }
+        .intro-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: center;
+            max-width: 900px;
+        }
+        .valuation-summary {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        .valuation-method {
+            background: #FFFFFF;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+            height: 150px;
+            width: 280px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .method-title {
+            font-size: 20px;
+            font-weight: 500;
+            color: #091E42;
+            margin-bottom: 10px;
+        }
+        .method-value {
+            font-size: 36px;
+            font-weight: 500;
+            color: #0052CC;
+        }
+        .target-price-box {
+            background: #0052CC;
+            color: #FFFFFF;
+            padding: 32px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+            height: 200px;
+            width: 350px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .target-label {
+            font-size: 24px;
+            font-weight: 300;
+            margin-bottom: 10px;
+        }
+        .target-value {
+            font-size: 64px;
+            font-weight: 500;
+            line-height: 1;
+        }
+        .upside-value {
+            font-size: 28px;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Valuation Summary: $405 Target Price and Upside</h1>
+        </div>
+        <div class="content-wrapper">
+            <p class="intro-text">
+                Our comprehensive valuation approach combines the fundamental insights from the Discounted Cash Flow (DCF) model with the market perspective of Comparable Company Analysis (Comps) to arrive at a robust target price for Micron Technology.
+            </p>
+            <div class="valuation-summary">
+                <div class="valuation-method">
+                    <div class="method-title">DCF Valuation</div>
+                    <div class="method-value">$167.00</div>
+                    <div style="font-size: 14px; color: #5E6C84;">60% Weight</div>
+                </div>
+                <div class="target-price-box">
+                    <div class="target-label">12-Month Target Price</div>
+                    <div class="target-value">$405.00</div>
+                    <div class="upside-value"><i class="fas fa-arrow-up"></i> 65.1% Upside</div>
+                </div>
+                <div class="valuation-method">
+                    <div class="method-title">Comps Valuation</div>
+                    <div class="method-value">$761.00</div>
+                    <div style="font-size: 14px; color: #5E6C84;">40% Weight</div>
+                </div>
+            </div>
+            <p class="intro-text" style="font-size: 16px; max-width: 800px;">
+                The blended target price reflects a conservative weighting towards the DCF model, acknowledging the cyclical nature of the memory industry, while incorporating the strong market sentiment reflected in peer multiples, particularly from AI-related companies.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

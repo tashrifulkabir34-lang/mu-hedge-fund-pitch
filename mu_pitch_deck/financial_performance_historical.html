@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #F4F5F7;
+            font-family: 'Inter', sans-serif;
+            color: #5E6C84;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            color: #091E42;
+            margin: 0;
+        }
+        .content-wrapper {
+            display: flex;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 40px;
+        }
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .right-column {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .intro-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .metric-box {
+            background: #FFFFFF;
+            padding: 18px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+            height: 150px;
+        }
+        .metric-label {
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            color: #5E6C84;
+        }
+        .metric-value {
+            font-size: 36px;
+            font-weight: 500;
+            color: #0052CC;
+            line-height: 1;
+        }
+        .metric-sub {
+            font-size: 14px;
+            color: #36B37E;
+            font-weight: 500;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Financial Performance: Record Growth and Margin Expansion</h1>
+        </div>
+        <div class="content-wrapper">
+            <div class="left-column">
+                <p class="intro-text">
+                    Micron Technology delivered strong financial results in FQ2-26, demonstrating significant operational improvements and capitalizing on the surging demand for memory products, particularly in the AI segment. This performance underscores the company's robust position in the current memory upcycle.
+                </p>
+                <div class="metric-box">
+                    <div class="metric-label">FQ2-26 Revenue</div>
+                    <div class="metric-value">$5.82 Billion</div>
+                    <div class="metric-sub">+58% Year-over-Year</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-label">Gross Margin</div>
+                    <div class="metric-value">20.6%</div>
+                    <div class="metric-sub">Up from -31.4% in FQ2-25</div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div style="height: 400px; width: 500px; background-color: #E0E0E0; display: flex; justify-content: center; align-items: center; color: #888888; font-size: 24px;">
+                    [Placeholder for Revenue & Gross Margin Chart]
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

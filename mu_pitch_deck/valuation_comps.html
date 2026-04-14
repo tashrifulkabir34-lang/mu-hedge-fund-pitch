@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #F4F5F7;
+            font-family: 'Inter', sans-serif;
+            color: #5E6C84;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            color: #091E42;
+            margin: 0;
+        }
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 30px;
+        }
+        .intro-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #FFFFFF;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+        }
+        th, td {
+            text-align: left;
+            padding: 16px 24px;
+            border-bottom: 1px solid #EAECEF;
+            font-size: 16px;
+        }
+        th {
+            background: #F4F5F7;
+            font-weight: 500;
+            color: #091E42;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        td {
+            color: #5E6C84;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        .highlight-row {
+            background-color: #E6F0FF;
+            font-weight: 500;
+            color: #0052CC;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Valuation: Comparable Company Analysis (Comps)</h1>
+        </div>
+        <div class="content-wrapper">
+            <p class="intro-text">
+                Our Comparable Company Analysis (Comps) provides a relative valuation perspective for Micron Technology by benchmarking its financial metrics against key industry peers. This helps in understanding how the market values similar businesses.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Company</th>
+                        <th>Primary Business</th>
+                        <th>EV/EBITDA (Median)</th>
+                        <th>P/E (Median)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SK Hynix</td>
+                        <td>Memory (DRAM, NAND)</td>
+                        <td>5.5x</td>
+                        <td>8.0x</td>
+                    </tr>
+                    <tr>
+                        <td>Samsung Electronics</td>
+                        <td>Diversified Tech (Memory, Foundry, Mobile)</td>
+                        <td>8.6x</td>
+                        <td>12.0x</td>
+                    </tr>
+                    <tr>
+                        <td>NVIDIA</td>
+                        <td>AI Processors, GPUs</td>
+                        <td>25.0x</td>
+                        <td>35.0x</td>
+                    </tr>
+                    <tr class="highlight-row">
+                        <td>Peer Median</td>
+                        <td></td>
+                        <td>8.6x</td>
+                        <td>12.0x</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="intro-text" style="margin-top: 20px;">
+                *Note: Multiples are based on forward estimates for FY2026. NVIDIA is included as an AI proxy due to its significant influence on HBM demand.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

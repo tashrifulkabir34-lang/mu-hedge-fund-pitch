@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #F4F5F7;
+            font-family: 'Inter', sans-serif;
+            color: #5E6C84;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            color: #091E42;
+            margin: 0;
+        }
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 30px;
+        }
+        .intro-text {
+            font-size: 18px;
+            line-height: 1.6;
+            max-width: 1000px;
+            margin-bottom: 20px;
+        }
+        .columns {
+            display: flex;
+            gap: 40px;
+        }
+        .column {
+            flex: 1;
+            background: #FFFFFF;
+            padding: 32px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+            height: 250px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #091E42;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+        li::before {
+            content: '\2022'; /* Bullet point */
+            color: #0052CC;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Company Overview: A Global Leader in Memory Solutions</h1>
+        </div>
+        <div class="content-wrapper">
+            <p class="intro-text">
+                Micron Technology is a world leader in innovative memory and storage solutions, transforming how the world uses information to enrich life. With a rich history of innovation, Micron is at the forefront of technological advancements critical for data-intensive applications like Artificial Intelligence.
+            </p>
+            <div class="columns">
+                <div class="column">
+                    <h2>Key Products</h2>
+                    <ul>
+                        <li>DRAM (Dynamic Random-Access Memory): Essential for computing, including High Bandwidth Memory (HBM) for AI and DDR5 for servers.</li>
+                        <li>NAND Flash: Non-volatile storage solutions, including Solid-State Drives (SSDs) and Universal Flash Storage (UFS).</li>
+                        <li>NOR Flash: High-performance, reliable memory for embedded applications.</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h2>Market Position & Competitive Landscape</h2>
+                    <ul>
+                        <li>One of only three major DRAM manufacturers globally, alongside Samsung and SK Hynix.</li>
+                        <li>Strong position in the high-growth HBM market, critical for AI accelerators.</li>
+                        <li>Diversified product portfolio serving computing, mobile, automotive, and industrial markets.</li>
+                        <li>Continuous innovation in process technology and product development.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

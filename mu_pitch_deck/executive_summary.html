@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #F4F5F7;
+            font-family: 'Inter', sans-serif;
+            color: #5E6C84;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            color: #091E42;
+            margin: 0;
+        }
+        .content-wrapper {
+            display: flex;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 60px;
+        }
+        .left-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 16px; /* reduced from 32 to save vertical space */
+        }
+        .right-column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 12px; /* reduced from 24 to save vertical space */
+        }
+        .thesis-box {
+            background: #FFFFFF;
+            padding-top: 20px; /* reduced from 32 */
+            padding-left: 32px;
+            height: 200px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+        }
+        .thesis-box h2 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #091E42;
+            margin-bottom: 16px;
+        }
+        .thesis-box p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .metric-card {
+            background: #FFFFFF;
+            padding-top: 16px; /* reduced from 24 */
+            padding-left: 32px;
+            height: 140px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+        }
+        .metric-label {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+        .metric-value {
+            font-size: 48px;
+            font-weight: 500;
+            color: #0052CC;
+            line-height: 1;
+        }
+        .metric-sub {
+            font-size: 16px;
+            color: #36B37E;
+            font-weight: 500;
+            margin-top: 5px;
+        }
+        .catalyst-item {
+            background: #FFFFFF;
+            padding-top: 16px; /* reduced from 24 */
+            padding-left: 32px;
+            padding-right: 32px;
+            height: 120px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+            display: flex;
+            gap: 20px;
+        }
+        .catalyst-icon {
+            font-size: 28px;
+            color: #0052CC;
+            padding-top: 4px;
+        }
+        .catalyst-text h3 {
+            font-size: 20px;
+            font-weight: 500;
+            color: #091E42;
+            margin-bottom: 8px;
+        }
+        .catalyst-text p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Executive Summary: The AI-Driven Memory Bottleneck</h1>
+        </div>
+        <div class="content-wrapper">
+            <div class="left-column">
+                <div class="thesis-box">
+                    <h2>Investment Thesis</h2>
+                    <p>Micron is the primary beneficiary of the AI-driven memory super-cycle, with its HBM3E products essential for next-generation AI accelerators.</p>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">12-Month Target Price</div>
+                    <div class="metric-value">$405.00</div>
+                    <div class="metric-sub"><i class="fas fa-arrow-up"></i> 65.1% Upside</div>
+                </div>
+                <div class="metric-card">
+                    <div class="metric-label">Rating</div>
+                    <div class="metric-value" style="color: #36B37E;">STRONG BUY</div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="catalyst-item">
+                    <div class="catalyst-icon"><i class="fas fa-microchip"></i></div>
+                    <div class="catalyst-text">
+                        <h3>HBM3E Sold Out Through 2026</h3>
+                        <p>Unprecedented revenue visibility and pricing power in the most critical AI memory segment.</p>
+                    </div>
+                </div>
+                <div class="catalyst-item">
+                    <div class="catalyst-icon"><i class="fas fa-dollar-sign"></i></div>
+                    <div class="catalyst-text">
+                        <h3>Record FQ3-26 Guidance</h3>
+                        <p>Projected revenue of $33.5B and gross margins of ~81% signal a new era of profitability.</p>
+                    </div>
+                </div>
+                <div class="catalyst-item">
+                    <div class="catalyst-icon"><i class="fas fa-industry"></i></div>
+                    <div class="catalyst-text">
+                        <h3>CHIPS Act Funding</h3>
+                        <p>$6.4B in grants solidifies Micron\'s domestic manufacturing moat and reduces geopolitical risk.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

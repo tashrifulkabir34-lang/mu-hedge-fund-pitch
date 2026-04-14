@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #F4F5F7;
+            font-family: 'Inter', sans-serif;
+            color: #5E6C84;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            color: #091E42;
+            margin: 0;
+        }
+        .content-wrapper {
+            display: flex;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 40px;
+        }
+        .column {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .intro-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .box {
+            background: #FFFFFF;
+            padding: 24px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+            height: 250px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #091E42;
+            margin-bottom: 16px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 8px;
+            position: relative;
+            padding-left: 25px;
+        }
+        li::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f00c"; /* Check icon */
+            color: #36B37E;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .result-value {
+            font-size: 48px;
+            font-weight: 500;
+            color: #0052CC;
+            line-height: 1;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .result-label {
+            font-size: 20px;
+            text-align: center;
+            color: #5E6C84;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Valuation: Discounted Cash Flow (DCF) Analysis</h1>
+        </div>
+        <div class="content-wrapper">
+            <div class="column">
+                <p class="intro-text">
+                    Our 5-year Discounted Cash Flow (DCF) model provides an intrinsic valuation for Micron Technology, based on conservative projections for revenue growth, profitability, and capital expenditures. This analysis aims to capture the fundamental value of the company.
+                </p>
+                <div class="box">
+                    <h2>Key Assumptions</h2>
+                    <ul>
+                        <li>Revenue Growth: AI-driven peak in 2026, normalizing thereafter.</li>
+                        <li>EBITDA Margins: Reflect HBM3E pricing power and cost efficiencies.</li>
+                        <li>CAPEX: High due to semiconductor manufacturing intensity.</li>
+                        <li>WACC: 10% (Cost of Equity & Debt, Business Risk).</li>
+                        <li>Terminal Growth: 3% (Conservative long-term growth).</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <h2>DCF Model Output</h2>
+                    <div class="result-value">$167.00</div>
+                    <div class="result-label">Implied Price per Share</div>
+                    <p style="font-size: 14px; text-align: center; margin-top: 20px;">Based on 5-year explicit forecast and terminal value.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

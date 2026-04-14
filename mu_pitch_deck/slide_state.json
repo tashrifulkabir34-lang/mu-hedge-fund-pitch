@@ -1,0 +1,192 @@
+{
+  "project_info": {
+    "title": "Micron Technology (MU): The Memory Backbone of the AI Super-Cycle",
+    "created": 1776109986.179698,
+    "last_updated": 1776162090.8998427,
+    "total_slides": 15
+  },
+  "slides": [
+    {
+      "id": "title_slide",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "executive_summary",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "company_overview",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "ai_investment_thesis",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "market_opportunity",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "operational_excellence",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "financial_performance_historical",
+      "state": "edited",
+      "pageNum": 7
+    },
+    {
+      "id": "forward_outlook_guidance",
+      "state": "edited",
+      "pageNum": 8
+    },
+    {
+      "id": "valuation_dcf",
+      "state": "edited",
+      "pageNum": 9
+    },
+    {
+      "id": "valuation_comps",
+      "state": "edited",
+      "pageNum": 10
+    },
+    {
+      "id": "valuation_summary_target_price",
+      "state": "edited",
+      "pageNum": 11
+    },
+    {
+      "id": "catalysts_timeline",
+      "state": "edited",
+      "pageNum": 12
+    },
+    {
+      "id": "risk_factors_bear_case",
+      "state": "edited",
+      "pageNum": 13
+    },
+    {
+      "id": "position_sizing_portfolio_fit",
+      "state": "edited",
+      "pageNum": 14
+    },
+    {
+      "id": "conclusion_recommendation",
+      "state": "edited",
+      "pageNum": 15
+    }
+  ],
+  "outline": [
+    {
+      "id": "title_slide",
+      "title": "Micron Technology (MU): The Memory Backbone of the AI Super-Cycle",
+      "summary": "Institutional Investment Pitch: High-Conviction \"Strong Buy\"",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "executive_summary",
+      "title": "Executive Summary: The AI-Driven Memory Bottleneck",
+      "summary": "Micron is the primary beneficiary of the AI-driven memory bottleneck.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "company_overview",
+      "title": "Company Overview: A Global Leader in Memory Solutions",
+      "summary": "Micron Technology is a world leader in innovative memory and storage solutions.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "ai_investment_thesis",
+      "title": "The AI Investment Thesis: HBM3E and Supply Scarcity",
+      "summary": "HBM3E is the critical AI bottleneck, coupled with structural supply scarcity and domestic strategic advantage.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "market_opportunity",
+      "title": "Market Opportunity: The Memory Super-Cycle",
+      "summary": "Exponential growth in AI inference demand and rational supply management drive the memory super-cycle.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "operational_excellence",
+      "title": "Operational Excellence: Product and Cost Leadership",
+      "summary": "Micron\\'s HBM3E performance, manufacturing roadmap, and cost efficiency.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "financial_performance_historical",
+      "title": "Financial Performance: Record Growth and Margin Expansion",
+      "summary": "FQ2-26 highlights record revenue growth and significant margin expansion.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "forward_outlook_guidance",
+      "title": "Forward Outlook: Record FQ3-26 Guidance",
+      "summary": "Micron\\'s record FQ3-26 guidance signals continued strong performance.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "valuation_dcf",
+      "title": "Valuation: Discounted Cash Flow (DCF) Analysis",
+      "summary": "5-year DCF results with a $167/share fundamental base case.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "valuation_comps",
+      "title": "Valuation: Comparable Company Analysis (Comps)",
+      "summary": "Relative valuation vs. Samsung, SK Hynix, and NVIDIA.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "valuation_summary_target_price",
+      "title": "Valuation Summary: $405 Target Price and Upside",
+      "summary": "Blended target price calculation with 65% upside from current levels.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "catalysts_timeline",
+      "title": "Key Catalysts and Investment Timeline",
+      "summary": "Short-term and long-term events driving the investment thesis.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "risk_factors_bear_case",
+      "title": "Risk Factors and Bear Case Analysis",
+      "summary": "Analysis of cyclicality, execution risks, and geopolitical tensions.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "position_sizing_portfolio_fit",
+      "title": "Position Sizing and Portfolio Fit Strategy",
+      "summary": "Recommended 5-8% weighting and risk/reward profile.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "conclusion_recommendation",
+      "title": "Conclusion: A Compelling \"Strong Buy\" Recommendation",
+      "summary": "Final verdict and strategic takeaway for institutional investors.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

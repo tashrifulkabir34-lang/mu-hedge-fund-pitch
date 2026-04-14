@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body { margin: 0; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background: #F4F5F7;
+            font-family: 'Inter', sans-serif;
+            color: #5E6C84;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+        .header {
+            padding-top: 60px;
+            padding-left: 80px;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 500;
+            color: #091E42;
+            margin: 0;
+        }
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            padding-left: 80px;
+            padding-right: 80px;
+            gap: 30px;
+        }
+        .intro-text {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 0;
+            margin-bottom: 12px;
+        }
+        .columns {
+            display: flex;
+            gap: 40px;
+        }
+        .column {
+            flex: 1;
+            background: #FFFFFF;
+            padding: 32px;
+            box-shadow: 0 4px 12px rgba(9, 30, 66, 0.08);
+            height: 300px;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #091E42;
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            font-size: 16px;
+            line-height: 1.8;
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 30px;
+        }
+        li::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f00c"; /* Check icon */
+            color: #36B37E;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .recommendation-box {
+            background: #0052CC;
+            color: #FFFFFF;
+            padding: 32px;
+            text-align: center;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .recommendation-box h2 {
+            color: #FFFFFF;
+            margin-bottom: 10px;
+        }
+        .recommendation-box .rating {
+            font-size: 48px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .recommendation-box .target-price {
+            font-size: 28px;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h1>Conclusion and Investment Recommendation</h1>
+        </div>
+        <div class="content-wrapper">
+            <p class="intro-text">
+                Micron Technology stands at the precipice of a transformative growth phase, driven by its pivotal role in the AI revolution. Our analysis confirms a compelling investment opportunity with significant upside potential.
+            </p>
+            <div class="columns">
+                <div class="column">
+                    <h2>Key Takeaways</h2>
+                    <ul>
+                        <li>**AI Super-Cycle Beneficiary**: Leading position in HBM3E, critical for AI accelerators.</li>
+                        <li>**Strong Financial Momentum**: Record guidance and improving profitability.</li>
+                        <li>**Operational Excellence**: Advanced manufacturing and cost leadership.</li>
+                        <li>**Attractive Valuation**: Blended valuation indicates substantial undervaluation.</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <div class="recommendation-box">
+                        <h2>Investment Recommendation</h2>
+                        <div class="rating">STRONG BUY</div>
+                        <div class="target-price">12-Month Target Price: $405.00 (+65.1% Upside)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
